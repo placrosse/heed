@@ -3,7 +3,7 @@ name: Release Lint, Test, and Build
 on:
   push:
     branches:
-      - master # Push events on master branch
+      - reversed
 
 name: Cargo test
 jobs:
